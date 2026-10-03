@@ -1,0 +1,7 @@
+SELECT TOP (1000) [CustomerId]
+      ,[CustomerName]
+      ,[PhoneNumber]
+      ,[Address]
+      ,[RewardPoints]
+      ,[MembershipRank]
+  FROM [MiniSupermarketDb].[dbo].[Customers]
